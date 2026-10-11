@@ -1,0 +1,26 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+
+.venv/
+venv/
+.env
+
+# Test and coverage caches
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Security scan reports
+
+bandit-report.json
+
+# Local IDE and OS files
+
+.vscode/
+.DS_Store
