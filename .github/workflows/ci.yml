@@ -2,9 +2,11 @@ name: DevSecOps CI
 
 on:
 push:
-branches: [main]
+branches:
+- main
 pull_request:
-branches: [main]
+branches:
+- main
 
 permissions:
 contents: read
@@ -17,6 +19,7 @@ steps:
 - name: Récupérer le code
 uses: actions/checkout@v4
 
+```
   - name: Configurer Python
     uses: actions/setup-python@v5
     with:
@@ -35,3 +38,4 @@ uses: actions/checkout@v4
 
   - name: Auditer les dépendances
     run: pip-audit -r requirements.txt
+```
