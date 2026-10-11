@@ -13,12 +13,11 @@ jobs:
 test-and-security:
 name: Tests et contrôles de sécurité
 runs-on: ubuntu-latest
+steps:
+- name: Récupérer le code
+uses: actions/checkout@v4
 
 ```
-steps:
-  - name: Récupérer le code
-    uses: actions/checkout@v4
-
   - name: Configurer Python
     uses: actions/setup-python@v5
     with:
