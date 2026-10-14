@@ -35,3 +35,4 @@ kubectl --context "kind-$CLUSTER" rollout status \
 
 echo "==> Environnement prêt !"
 kubectl --context "kind-$CLUSTER" get pods
+
