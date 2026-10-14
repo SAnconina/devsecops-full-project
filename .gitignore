@@ -37,3 +37,9 @@ override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
+
+# Node.js dependencies
+node_modules/
+
+# Node.js dependencies
+node_modules/

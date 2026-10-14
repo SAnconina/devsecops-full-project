@@ -1,0 +1,35 @@
+# Git
+.git/
+.github/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets and environment
+.env
+.env.*
+!.env.example
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Infrastructure and documentation
+terraform/
+kubernetes/
+docs/
+scripts/
+tests/
+
+# Local files
+.vscode/
+.DS_Store
+node_modules/
+*.log
